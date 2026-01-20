@@ -1,4 +1,4 @@
-FROM amazonlinux:2023.9.20251208.0
+FROM 416670754337.dkr.ecr.eu-west-2.amazonaws.com/ci-core-runtime:latest
 
 RUN dnf install -y \
         awscli-2-2.32.1 \
